@@ -13,7 +13,6 @@ public class LoginPage {
     // variable
     WebDriver driver;
     String url = "https://www.saucedemo.com/";
-
     JSONParser jsonParser = new JSONParser();
     JSONObject jsonObject = (JSONObject) jsonParser.parse(new FileReader("Utilities\\read.json"));
 
